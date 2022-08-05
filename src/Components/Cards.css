@@ -1,0 +1,106 @@
+.backColor{
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+    backdrop-filter: blur(100px);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-family: 'Tomorrow';
+}
+.bgColor{
+ background-color: #21202A;
+ backdrop-filter: blur(100px);
+
+
+}
+.circleCird{
+   position: relative;
+   top: -50px;
+   left: 50%;
+   transform: translate(-50%);
+}
+:root{
+    --clr: #14172B;
+}
+.Icons::before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    top: 0%;
+    left:47px;
+    width:  20px;
+    height: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -10px 0 0 var(--clr)
+}
+.Icons::after{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    top: 0%;
+    right:47px;
+    width:  20px;
+    height: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0px -10px 0 0 var(--clr)
+}
+.title{
+    margin-top: -30px;
+    text-align:  center;
+    
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 31px;
+/* identical to box height, or 258% */
+
+text-align: center;
+
+color: #737BAE;
+
+opacity: 0.9;
+}
+.title2{
+   
+    text-align:  center;
+    
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 31px;
+/* identical to box height, or 258% */
+
+text-align: center;
+
+color: #737BAE;
+
+opacity: 0.9;
+}
+.Text{
+    font-family: 'Tomorrow';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 31px;
+/* identical to box height, or 194% */
+
+text-align: center;
+
+/* Secondary/Blue 000 */
+
+color: #ECF0FF;
+
+opacity: 0.9;
+}
+.Para{
+    font-family: 'Tomorrow';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 31px;
+/* identical to box height, or 258% */
+
+text-transform: uppercase;
+
+color: #00FFA3;
+
+opacity: 0.9;
+}
